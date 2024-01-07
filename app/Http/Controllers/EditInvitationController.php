@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class SubmitBuktiController extends Controller
+class EditInvitationController extends Controller
 {
     public function index()
     {
-        return view('submitbukti');
+        return view('editindex');
     }
 }
